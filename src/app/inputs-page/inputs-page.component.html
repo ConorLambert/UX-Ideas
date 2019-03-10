@@ -1,0 +1,51 @@
+<div class="header">
+  <div class="header-common">
+    <div class="platform-info">
+      <div class="logo base-padding">
+        <img src="assets/images/athora-logo-white.png" />
+      </div>
+      <div class="account">
+        <div class="version account-item">
+          <a>{{version}}</a>
+        </div>
+        <div class="server account-item">
+          <a>{{server}}</a>
+        </div>
+      </div>
+    </div>
+    <nav class="base-padding">
+      <div class="navigation-item" *ngFor="let navigationItem of navigationItems">
+        <a>{{navigationItem}}</a>
+      </div>
+    </nav>
+  </div>
+  <div class="current-activated-route base-padding">
+    {{currentActivatedRoute}}
+  </div>
+</div>
+<!-- <div class="full-activated-route">
+  <div class="activated-route-wrapper" 
+       *ngFor="let activatedRoute of previousRoute" 
+       [class.currently-activated-route]="activatedRoute === currentActivatedRoute">
+      <span class="activated-route base-padding">{{ activatedRoute }}</span>
+  </div>
+</div> -->
+
+<main class="base-padding">
+  <div class="options-container main-elements-padding">
+    <div class="selection-views-wrapper split">
+      <span *ngFor="let selectionView of selectionViews" class="selection-view">
+          {{selectionView}}
+      </span>
+    </div>
+    <div class="tabs split ">
+      <span class="tab" *ngFor="let tab of tabs">
+        {{tab}}
+      </span>
+    </div>
+  </div>
+
+  <div class="current-selection-view">
+    <inputs-grid></inputs-grid>
+  </div>
+</main>

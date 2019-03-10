@@ -1,0 +1,24 @@
+.grid-container {
+    display: flex;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+}
+
+.cell {
+    padding: 30px;
+    border: 1px solid #2bdae2;
+}
+
+.cell .content {
+    cursor: pointer;
+    border-radius: 13px;
+    padding: 9px 33px;
+}
+
+.cell .content:hover {
+    background-color: lightgrey;
+    transition: 0.4s;
+}

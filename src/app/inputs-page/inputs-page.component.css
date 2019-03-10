@@ -1,0 +1,92 @@
+.header {
+    background-color: #445866;
+}
+    .header .header-common  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:50px;
+    }
+    .header .platform-info {
+        display: flex;
+        width: 50%;
+    }
+    .logo img {
+        height: 30px; 
+    }
+    .header nav {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+        color:#7c909c;
+        width: 50%;
+    }
+        nav .navigation-item {
+            padding-left: 25px;
+        }
+    .account {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+.full-activated-route {
+    display:flex;
+    background-color:#ffffff;
+}
+main {
+    background-color: #e2e7ea;
+}
+.activated-route-wrapper {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-right: solid 2px #eee;
+}
+.base-padding {
+    padding-left:30px;
+    padding-right:30px;
+}
+.current-activated-route {
+    font-size: 42px;
+    color: #00bbe7;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.main-elements-padding {
+    padding: 20px 0px;
+}
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection-views-wrapper {
+    width:50%;
+}
+.selection-view {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: white;
+    text-transform: uppercase;
+    font-size:14px;
+}
+.split {
+    width:50%;
+}
+.tabs {
+    text-align: end;
+}
+.tab {
+    padding-left:70px;
+}
+.currently-activated-route {
+    border-bottom: 2px solid #00bbe7;
+    box-sizing: border-box;
+}
+.current-selection-view {
+
+}

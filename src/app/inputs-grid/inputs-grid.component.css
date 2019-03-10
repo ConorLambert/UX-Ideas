@@ -1,0 +1,35 @@
+ul {
+    list-style:none;
+}
+
+ul.row {
+    white-space: nowrap;
+    margin:0;
+    cursor:pointer;
+}
+
+ul.row li {
+    background-color: white; 
+    transition: 1.2s;
+}
+
+ul.row .product:hover {
+    background-color: lightgrey; 
+    transition: 0.5s;
+}
+
+.item-selected {
+    background-color: yellow; 
+}
+
+.cell {
+    display:inline-block;
+    border: 1px solid black;
+    padding:20px;
+}
+.run-type {
+    width: 130px;
+}
+.row .heading {
+   background-color: lightblue; 
+}
